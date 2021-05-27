@@ -1,0 +1,38 @@
+{
+   "sensor_type_list":[
+      {
+         "sensor_type_name":"soil-moisture-sensor",
+         "company":"samsung",
+         "sensor_data_structure":{
+            "moisture":"float"
+         },
+         "control_functions":{
+            "number_of_functions":1,
+            "function_details":[
+               {
+                  "name":"switchOnSprinkler",
+                  "number_of_parameters":1,
+                  "params":[
+                     {
+                        "time":"int"
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "sensor_type_name":"air-condition-sensor",
+         "company":"lg",
+         "sensor_data_structure":{
+            "temperature":"int"
+         },
+         "control_functions":{
+            "number_of_functions":0,
+            "function_details":[
+               
+            ]
+         }
+      }
+   ]
+}

@@ -1,0 +1,5 @@
+pymongo
+kafka-python
+paramiko==2.4.2
+dnspython
+docker

@@ -1,0 +1,29 @@
+{
+   "application_name":"app1",
+   "instance_id" : "13",
+   "script_names" : ["script1.py"],
+   "algorithm_name":"algo1",
+   "sensor_info":[
+      {
+         "sensor_type":"soil-moisture-sensor",
+         "filter_sensors":[
+            {
+               "location":"Indore"
+            }
+         ]
+      }
+   ],
+   "scheduling_info":{
+      "request_type": "stop",
+      "start_time": "",
+      "end_time": "",
+      "day": "",
+      "interval": "30",
+      "repeat": "no",
+      "job_id": "123 exists only if request type is stop"
+   },
+   "environment":{
+      "lang":"python",
+      "dependencies": [["requests", ""], ["kafka-python", ""]]
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "application_id":12,
+   "instance_id":1,
+   "script_name" : "waterContent.py",
+   "script_file_path": "/home/varun/IAS/ias-spring-2021-group-4/app/src/waterContent.py",
+   "algorithm_name":"waterContent",
+   "sensor_info":[
+      {
+         "sensor_type":"soil-moisture-sensor",
+         "filter_sensors":[
+            {
+               "location":"maharashtra"
+            }
+         ]
+      }
+   ],
+   "scheduling_info":{
+      "request_type": "start",
+      "start_time": "",
+      "end_time": "",
+      "day": "",
+      "interval": "10",
+      "repeat": "no",
+      "job_id": "123 exists only if request type is stop"
+   },
+   "environment":{
+      "lang":"python",
+      "dependencies": [["flask",""],["pandas","1.2.3"]]
+   }
+}

@@ -1,0 +1,43 @@
+<html>
+   <head>
+      <style>
+      div.form
+      {
+          display: block;
+          text-align: center;
+          padding-top: 30pt;
+      }
+      form
+      {
+          display: inline-block;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+      }   
+      </style>
+   </head>
+   <body>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <div class="form">
+         <h1>IOT Platform Group 4</h1>
+         <h3>Container Logs for Container ID {{c_id}}</h3>
+      </div>
+      
+      <div style="text-align:center;margin-top:auto;margin-bottom:auto;">
+		<form action="/dashboard/container_logs" method ="POST">
+		  <label for="c_id">Check Container Logs</label><br><br>
+		  <input type="text" id="c_id" name="c_id" placeholder="Enter Container ID"><br>
+		  <input type="submit" value="Submit">
+		</form> 
+	</div>
+	<br>
+	<div id="col1_vals" style="text-align:center;margin-top:auto;margin-bottom:auto;"> 
+		{% for val in col1 %}
+			{{ val }}<br>
+		{% endfor %}
+	</div>
+      <br>
+      <br>
+      
+   </body>
+</html>

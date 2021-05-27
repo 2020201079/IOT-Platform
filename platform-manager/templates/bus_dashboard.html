@@ -1,0 +1,57 @@
+<html>
+   <head>
+      <style>
+      div.form
+      {
+          display: block;
+          text-align: center;
+          padding-top: 30pt;
+      }
+      form
+      {
+          display: inline-block;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+      }   
+      </style>
+   </head>
+   <body>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <div class="form">
+         <h1>IOT Platform Group 4</h1>
+         <h3> Bus Number {{ bus_id }} </h3>
+      </div>
+      
+      <div style="">
+        <div id="col1_vals" style="width:40%;text-align:center;display:inline-block;float:left">
+		{% for val in col1 %}
+			{{ val }}<br>
+		{% endfor %}
+	</div>
+	<div id="col2_vals"style="width:40%;text-align:center;display:inline-block;">
+		{% for val in col2 %}
+			{{ val }}<br>
+		{% endfor %}
+	</div>
+      </div>
+      	
+	<script>
+		(function refresh() {
+		  $.ajax({
+			  url: '/dashboard/bus_refresh_'+{{bus_id}},
+			  success: function(response) {
+				var col1_newvals = $('<div/>').append(response).find('#col1_vals').html();
+				$("#col1_vals").append(col1_newvals);
+				
+				var col2_newvals = $('<div/>').append(response).find('#col2_vals').html();
+				$("#col2_vals").append(col2_newvals);
+				setTimeout(refresh, 1000);
+			  },
+			});
+		})();
+			
+	</script>
+   </body>
+   </body>
+</html>

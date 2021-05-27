@@ -1,0 +1,18 @@
+{
+   "list_of_sensor_instances":[
+      {
+         "sensor_type":"soil-moisture-sensor",
+         "ip":"127.23.65.90",
+         "port":"8771",
+         "no_of_fields":1,
+         "location":"chennai"
+      },
+      {
+         "sensor_type":"soil-moisture-sensor",
+         "ip":"127.67.89.51",
+         "port":"7361",
+         "no_of_fields":1,
+         "location":"chennai"
+      }
+   ]
+}

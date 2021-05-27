@@ -1,0 +1,196 @@
+{
+   "noOfAlgo":4,
+   "1":{
+      "application_id":12,
+      "instance_id":1,
+      "script_name" : "fareCalculator.py",
+      "script_file_path": ["/home/varun/IAS/ias-spring-2021-group-4/sample_application/sample_app/src/fareCalculator.py", "/home/varun/IAS/ias-spring-2021-group-4/sample_application/sample_app/src/platform_libfile.py"],
+      "algorithm_name":"fareCalculator",
+      "sensor_info":[
+         {
+            "sensor_type":"gps-sensor",
+            "filter_sensors":[
+               {
+                  "placeholder":"bus",
+                  "bus-id":"1"
+               }
+            ]
+         },
+         {
+            "sensor_type":"biometric-sensor",
+            "filter_sensors":[
+               {
+                  "bus-id":"1"
+               }
+            ]
+         },
+         {
+            "sensor_type":"gps-sensor",
+            "filter_sensors":[
+               {
+                  "placeholder":"admin",
+                  "admin-id":"1"
+               }
+            ]
+         }
+      ],
+      "scheduling_info":{
+         "request_type": "start",
+         "start_time": "",
+         "end_time": "",
+         "days": "",
+         "interval": "30",
+         "repeat": "no",
+         "job_id": "123 exists only if request type is stop"
+      },
+      "environment":{
+         "lang":"python",
+         "dependencies": [["requests", ""], ["kafka-python", ""]]
+      }
+   },
+   "2":{
+      "application_id":12,
+      "instance_id":2,
+      "script_name" : "fareCalculator.py",
+      "script_file_path": ["/home/varun/IAS/ias-spring-2021-group-4/sample_application/sample_app/src/fareCalculator.py", "/home/varun/IAS/ias-spring-2021-group-4/sample_application/sample_app/src/platform_libfile.py"],
+      "algorithm_name":"fareCalculator",
+      "sensor_info":[
+         {
+            "sensor_type":"gps-sensor",
+            "filter_sensors":[
+               {
+                  "placeholder":"bus",
+                  "bus-id":"2"
+               }
+            ]
+         },
+         {
+            "sensor_type":"biometric-sensor",
+            "filter_sensors":[
+               {
+                  "bus-id":"2"
+               }
+            ]
+         },
+         {
+            "sensor_type":"gps-sensor",
+            "filter_sensors":[
+               {
+                  "placeholder":"admin",
+                  "admin-id":"1"
+               }
+            ]
+         }
+      ],
+      "scheduling_info":{
+         "request_type": "start",
+         "start_time": "",
+         "end_time": "",
+         "days": "",
+         "interval": "30",
+         "repeat": "no",
+         "job_id": "123 exists only if request type is stop"
+      },
+      "environment":{
+         "lang":"python",
+         "dependencies": [["requests", ""], ["kafka-python", ""]]
+      }
+   },
+   "3":{
+      "application_id":12,
+      "instance_id":3,
+      "script_name" : "fareCalculator.py",
+      "script_file_path": ["/home/varun/IAS/ias-spring-2021-group-4/sample_application/sample_app/src/fareCalculator.py", "/home/varun/IAS/ias-spring-2021-group-4/sample_application/sample_app/src/platform_libfile.py"],
+      "algorithm_name":"fareCalculator",
+      "sensor_info":[
+         {
+            "sensor_type":"gps-sensor",
+            "filter_sensors":[
+               {
+                  "placeholder":"bus",
+                  "bus-id":"3"
+               }
+            ]
+         },
+         {
+            "sensor_type":"biometric-sensor",
+            "filter_sensors":[
+               {
+                  "bus-id":"3"
+               }
+            ]
+         },
+         {
+            "sensor_type":"gps-sensor",
+            "filter_sensors":[
+               {
+                  "placeholder":"admin",
+                  "admin-id":"1"
+               }
+            ]
+         }
+      ],
+      "scheduling_info":{
+         "request_type": "start",
+         "start_time": "",
+         "end_time": "",
+         "days": "",
+         "interval": "30",
+         "repeat": "no",
+         "job_id": "123 exists only if request type is stop"
+      },
+      "environment":{
+         "lang":"python",
+         "dependencies": [["requests", ""], ["kafka-python", ""]]
+      }
+   },
+   "4":{
+      "application_id":12,
+      "instance_id":4,
+      "script_name" : "fareCalculator.py",
+      "script_file_path": ["/home/varun/IAS/ias-spring-2021-group-4/sample_application/sample_app/src/fareCalculator.py", "/home/varun/IAS/ias-spring-2021-group-4/sample_application/sample_app/src/platform_libfile.py"],
+      "algorithm_name":"fareCalculator",
+      "sensor_info":[
+         {
+            "sensor_type":"gps-sensor",
+            "filter_sensors":[
+               {
+                  "placeholder":"bus",
+                  "bus-id":"4"
+               }
+            ]
+         },
+         {
+            "sensor_type":"biometric-sensor",
+            "filter_sensors":[
+               {
+                  "bus-id":"4"
+               }
+            ]
+         },
+         {
+            "sensor_type":"gps-sensor",
+            "filter_sensors":[
+               {
+                  "placeholder":"admin",
+                  "admin-id":"1"
+               }
+            ]
+         }
+      ],
+      "scheduling_info":{
+         "request_type": "start",
+         "start_time": "",
+         "end_time": "",
+         "days": "",
+         "interval": "30",
+         "repeat": "no",
+         "job_id": "123 exists only if request type is stop"
+      },
+      "environment":{
+         "lang":"python",
+         "dependencies": [["requests", ""], ["kafka-python", ""]]
+      }
+   }
+
+}

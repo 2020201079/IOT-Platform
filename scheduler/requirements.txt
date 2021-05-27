@@ -1,0 +1,4 @@
+schedule
+kafka-python
+pymongo
+dnspython

@@ -1,0 +1,39 @@
+{
+   "application_name": "farm_management",
+   "application_id": 1,
+   "developer_id": 867,
+   "environment":{
+      "os": "Linux",
+      "modules": [
+         "pandas",
+         "numpy"
+      ]
+   },
+   "algorithm_list":[
+      {
+         "algorithm_name":"waterContent",
+         "script":{
+            "name":"waterContent.py"
+         },
+         "input_sensors":[
+            {
+               "sensor_type":"soil-moisture-sensor"
+            }
+         ]
+      },
+      {
+         "algorithm_name":"airConditions",
+         "script":{
+            "name":"airConditions.py"
+         },
+         "input_sensors":[
+            {
+               "sensor_type":"air-condition-sensor"
+            },
+            {
+               "sensor_type":"air-condition-sensor"
+            }
+         ]
+      }
+   ]
+}

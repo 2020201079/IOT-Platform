@@ -1,0 +1,15 @@
+{
+    "1": {
+        "node_name": "IAS-Node-1-new",
+        "node_ip": "52.188.83.232"
+    },
+
+    "2": {
+            "node_name": "IAS-Node-2-new",
+            "node_ip": "20.62.200.216"
+    },
+    "3": {
+            "node_name": "IAS-Node-3-new",
+            "node_ip": "20.84.81.153"
+    }
+}

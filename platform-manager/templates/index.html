@@ -1,0 +1,59 @@
+<html>
+   <head>
+      <style>
+      div.form
+      {
+          display: block;
+          text-align: center;
+          padding-top: 30pt;
+      }
+      form
+      {
+          display: inline-block;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+      }   
+      </style>
+   </head>
+   <body>
+      
+      <div class="form">
+         <h1>IOT Platform Group 4</h1>
+         <button onclick="location.href='dashboard'">Dashboard</button>
+      </div>
+      <div class="form">
+         <form action = "uploadAppZip" method = "POST" enctype = "multipart/form-data">
+            <label for="a">Application source folder:</label><br>
+            <p><input type="file" name = "file"></p>
+            <label for="appID">Application id: </label>
+            <input type="text" id="appID" name="appID"><br><br>
+            <p><input type="submit" value="Submit"></p>
+         </form>
+      </div>
+   <div class="form">
+      <form action = "uploadSensorType" method = "POST" 
+         enctype = "multipart/form-data">
+         <label for="a">Sensor type registration file:</label><br>
+         <input type = "file" accept=".json" name = 'file' id="a" /><br><br>
+         <input type = "submit" value="Upload file"/>
+      </form>
+   </div>
+   <div class="form">
+      <form action = "uploadSensorInstance" method = "POST" 
+      enctype = "multipart/form-data">
+         <label for="b">Sensor Instance Registration file:</label><br>
+         <input type = "file" accept=".json" name = "file" id="b" /><br><br>
+         <input type = "submit" value="Upload file"/>
+      </form>
+   </div>
+   <div class="form">
+      <form action = "uploadDeployConfig" method = "POST" 
+         enctype = "multipart/form-data">
+         <label for="c">Deploy config file:</label><br>
+         <input type = "file" accept=".json" name = "file" id="c"/><br><br>
+         <input type = "submit" value="Upload file"/>
+      </form>
+   </div>
+   </body>
+</html>
