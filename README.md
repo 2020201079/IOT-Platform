@@ -13,4 +13,4 @@
  
  Refer documents for more details
  
- 
+ ![alt tag](https://github.com/2020201079/IOT-Platform/blob/main/bigPicture.PNG?raw=true)
